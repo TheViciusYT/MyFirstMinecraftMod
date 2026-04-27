@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "First Mod",
+	"description": "This is my first mod just made for my learning :3",
+	"authors": [
+		"TheVicius!"
+	],
+	"contact": {
+		"homepage": "https://www.instagram.com/__nnnedeljkoviccc__p/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vicius.firstmod.FirstMod"
+		],
+		"fabric-datagen": [
+			"net.vicius.firstmod.FirstModDataGenerator"
+		],
+		"client": [
+			"net.vicius.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
