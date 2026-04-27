@@ -1,4 +1,6 @@
 {
   "item.firstmod.magnetite_ingot": "Magnetite Ingot",
-  "item.firstmod.raw_magnetite": "Raw Magnetite"
+  "item.firstmod.raw_magnetite": "Raw Magnetite",
+
+  "block.firstmod.magnetite_block": "Magnetite Block"
 }

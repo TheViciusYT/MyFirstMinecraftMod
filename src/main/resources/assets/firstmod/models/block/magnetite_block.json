@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:cube/cube_all",
+  "textures": {
+    "all": "firstmod:block/magnetite_block"
+  }
+}
