@@ -2,6 +2,7 @@ package net.vicius.firstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.vicius.firstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,10 +13,6 @@ public class FirstMod implements ModInitializer {
 	// Very Important
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
